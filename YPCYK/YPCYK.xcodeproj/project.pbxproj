@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1204C871E5E8DE7001227CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1204C861E5E8DE7001227CD /* main.m */; };
-		F1204C8A1E5E8DE7001227CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1204C891E5E8DE7001227CD /* AppDelegate.m */; };
-		F1204C8D1E5E8DE7001227CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1204C8C1E5E8DE7001227CD /* ViewController.m */; };
 		F1204C901E5E8DE8001227CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1204C8E1E5E8DE8001227CD /* Main.storyboard */; };
 		F1204C921E5E8DE8001227CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1204C911E5E8DE8001227CD /* Assets.xcassets */; };
 		F1204C951E5E8DE8001227CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1204C931E5E8DE8001227CD /* LaunchScreen.storyboard */; };
 		F1204CA01E5E8DE9001227CD /* YPCYKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1204C9F1E5E8DE9001227CD /* YPCYKTests.m */; };
 		F1204CAB1E5E8DE9001227CD /* YPCYKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1204CAA1E5E8DE9001227CD /* YPCYKUITests.m */; };
+		F142D25C1E5E9935004CE050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F142D2551E5E9935004CE050 /* AppDelegate.m */; };
+		F142D25D1E5E9935004CE050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F142D2561E5E9935004CE050 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +35,6 @@
 
 /* Begin PBXFileReference section */
 		F1204C821E5E8DE7001227CD /* YPCYK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPCYK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1204C861E5E8DE7001227CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1204C881E5E8DE7001227CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F1204C891E5E8DE7001227CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1204C8B1E5E8DE7001227CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1204C8C1E5E8DE7001227CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1204C8F1E5E8DE8001227CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1204C911E5E8DE8001227CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1204C941E5E8DE8001227CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +45,9 @@
 		F1204CA61E5E8DE9001227CD /* YPCYKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPCYKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1204CAA1E5E8DE9001227CD /* YPCYKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPCYKUITests.m; sourceTree = "<group>"; };
 		F1204CAC1E5E8DE9001227CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F142D2541E5E9935004CE050 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F142D2551E5E9935004CE050 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F142D2561E5E9935004CE050 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +98,7 @@
 		F1204C841E5E8DE7001227CD /* YPCYK */ = {
 			isa = PBXGroup;
 			children = (
-				F1204C881E5E8DE7001227CD /* AppDelegate.h */,
-				F1204C891E5E8DE7001227CD /* AppDelegate.m */,
-				F1204C8B1E5E8DE7001227CD /* ViewController.h */,
-				F1204C8C1E5E8DE7001227CD /* ViewController.m */,
-				F1204C8E1E5E8DE8001227CD /* Main.storyboard */,
-				F1204C911E5E8DE8001227CD /* Assets.xcassets */,
-				F1204C931E5E8DE8001227CD /* LaunchScreen.storyboard */,
-				F1204C961E5E8DE8001227CD /* Info.plist */,
+				F142D2441E5E9935004CE050 /* Class */,
 				F1204C851E5E8DE7001227CD /* Supporting Files */,
 			);
 			path = YPCYK;
@@ -117,7 +107,10 @@
 		F1204C851E5E8DE7001227CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1204C861E5E8DE7001227CD /* main.m */,
+				F1204C8E1E5E8DE8001227CD /* Main.storyboard */,
+				F1204C911E5E8DE8001227CD /* Assets.xcassets */,
+				F1204C931E5E8DE8001227CD /* LaunchScreen.storyboard */,
+				F1204C961E5E8DE8001227CD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +131,176 @@
 				F1204CAC1E5E8DE9001227CD /* Info.plist */,
 			);
 			path = YPCYKUITests;
+			sourceTree = "<group>";
+		};
+		F142D2441E5E9935004CE050 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F142D2451E5E9935004CE050 /* Base */,
+				F142D2461E5E9935004CE050 /* Helpers */,
+				F142D2491E5E9935004CE050 /* Libs */,
+				F142D24A1E5E9935004CE050 /* Live */,
+				F142D24E1E5E9935004CE050 /* Me */,
+				F142D2521E5E9935004CE050 /* Network */,
+				F142D2531E5E9935004CE050 /* Other */,
+				F142D2571E5E9935004CE050 /* Show */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F142D2451E5E9935004CE050 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F142D2461E5E9935004CE050 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F142D2471E5E9935004CE050 /* Categories */,
+				F142D2481E5E9935004CE050 /* Tools */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F142D2471E5E9935004CE050 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F142D2481E5E9935004CE050 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F142D2491E5E9935004CE050 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		F142D24A1E5E9935004CE050 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				F142D24B1E5E9935004CE050 /* Controller */,
+				F142D24C1E5E9935004CE050 /* Model */,
+				F142D24D1E5E9935004CE050 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F142D24B1E5E9935004CE050 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F142D24C1E5E9935004CE050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F142D24D1E5E9935004CE050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F142D24E1E5E9935004CE050 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F142D24F1E5E9935004CE050 /* Controller */,
+				F142D2501E5E9935004CE050 /* Model */,
+				F142D2511E5E9935004CE050 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F142D24F1E5E9935004CE050 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F142D2501E5E9935004CE050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F142D2511E5E9935004CE050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F142D2521E5E9935004CE050 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F142D2531E5E9935004CE050 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F142D2541E5E9935004CE050 /* AppDelegate.h */,
+				F142D2551E5E9935004CE050 /* AppDelegate.m */,
+				F142D2561E5E9935004CE050 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F142D2571E5E9935004CE050 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				F142D2581E5E9935004CE050 /* Controller */,
+				F142D2591E5E9935004CE050 /* Handlers */,
+				F142D25A1E5E9935004CE050 /* Model */,
+				F142D25B1E5E9935004CE050 /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		F142D2581E5E9935004CE050 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F142D2591E5E9935004CE050 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		F142D25A1E5E9935004CE050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F142D25B1E5E9935004CE050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +436,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1204C8D1E5E8DE7001227CD /* ViewController.m in Sources */,
-				F1204C8A1E5E8DE7001227CD /* AppDelegate.m in Sources */,
-				F1204C871E5E8DE7001227CD /* main.m in Sources */,
+				F142D25D1E5E9935004CE050 /* main.m in Sources */,
+				F142D25C1E5E9935004CE050 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YPCYK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.YPCYK;
@@ -433,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YPCYK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.YPCYK;
@@ -505,6 +669,7 @@
 				F1204CB11E5E8DE9001227CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1204CB21E5E8DE9001227CD /* Build configuration list for PBXNativeTarget "YPCYKTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +678,7 @@
 				F1204CB41E5E8DE9001227CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1204CB51E5E8DE9001227CD /* Build configuration list for PBXNativeTarget "YPCYKUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +687,7 @@
 				F1204CB71E5E8DE9001227CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
